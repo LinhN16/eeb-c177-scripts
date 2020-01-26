@@ -1,0 +1,1 @@
+# to make the script run automatically from any prompt without typing bash, you can use the shebang (#!) , which means that all following contents of the script will be sent to the program following the shebang
