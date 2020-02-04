@@ -7,4 +7,4 @@
 # Redirect to a file
 
 tail -n +2 $1 | cut -d "$3" -f 2-6 | tr -s "$3" " " | sort -r -n -k 6 > $2
-echo "The output file has been created"
+echo "Output file has been created"
